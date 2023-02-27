@@ -29,4 +29,4 @@ tomli==2.0.1
 uritemplate==4.1.1
 urllib3==1.26.12
 simplejwt==2.0.1
-djangorestframework-simplejwt==4.9.0
+djangorestframework-simplejwt==5.2.2
