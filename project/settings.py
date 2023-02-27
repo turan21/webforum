@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf_yasg',
+    'storages',
     'rest_framework',
     'django_filters',
     'rest_framework.authtoken',
@@ -98,6 +99,7 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
+from .cdn.conf import *  # noqa
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
