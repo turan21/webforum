@@ -1,5 +1,6 @@
 from datetime import timedelta
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -8,7 +9,7 @@ SECRET_KEY = 'django-insecure-4#5!t()^ux#i6k6g5!=5zjulcx(t(srnd7fuje7hyfdr&^-@(d
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["octopus-app-2663z.ondigitalocean.app"]
+ALLOWED_HOSTS = ["octopus-app-2663z.ondigitalocean.app", "127.0.0.1"]
 
 
 INSTALLED_APPS = [
@@ -94,6 +95,8 @@ USE_TZ = True
 
 
 STATIC_URL = 'static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
