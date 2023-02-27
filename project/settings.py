@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-4#5!t()^ux#i6k6g5!=5zjulcx(t(srnd7fuje7hyfdr&^-@(d
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["octopus-app-2663z.ondigitalocean.app"]
 
 
 INSTALLED_APPS = [
